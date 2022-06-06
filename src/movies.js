@@ -10,10 +10,9 @@ function getAllDirectors(arr) {
   return allDirectors;
 }
 
-// console.log(getAllDirectors(movies));
-
 // _Bonus_: It seems some of the directors had directed multiple movies so they will pop up multiple times in the array of directors.
 // How could you "clean" a bit this array and make it unified (without duplicates)?
+console.log(getAllDirectors(movies));
 
 // ** I would insted "return new Set(allDirectors)" in the function || but it's breaking lab solution tab **
 
@@ -29,7 +28,7 @@ function howManyMovies(arr) {
   return stevenMovies.length;
 }
 
-// console.log(howManyMovies(movies));
+console.log(howManyMovies(movies));
 
 // Iteration 3: All scores average - Get the average of all scores with 2 decimals
 function scoresAverage(arr) {
@@ -41,7 +40,7 @@ function scoresAverage(arr) {
   return Number(scoresTotal.toFixed(2));
 }
 
-// console.log(scoresAverage(movies));
+console.log(scoresAverage(movies));
 
 // Iteration 4: Drama movies - Get the average of Drama Movies
 function dramaMoviesScore(arr) {
@@ -56,7 +55,7 @@ function dramaMoviesScore(arr) {
     );
   return Number(dramaMoviesScore.toFixed(2));
 }
-// console.log(dramaMoviesScore(movies));
+console.log(dramaMoviesScore(movies));
 
 // Iteration 5: Ordering by year - Order by year, ascending (in growing order)
 function orderByYear(arr) {
